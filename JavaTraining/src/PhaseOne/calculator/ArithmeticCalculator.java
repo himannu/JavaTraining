@@ -1,4 +1,4 @@
-package PhaseOne;
+package PhaseOne.calculator;
 
 public class ArithmeticCalculator {
 	
@@ -27,4 +27,13 @@ public class ArithmeticCalculator {
 		return result;
 	}
 	
+	public double findSquareRoot(int value) {
+		double result = Math.sqrt(value);
+		return result;
+	}
+	
+	public float findPercentage(int part, int whole) {
+		float percentage = part*100/whole;
+		return percentage;
+	}
 }

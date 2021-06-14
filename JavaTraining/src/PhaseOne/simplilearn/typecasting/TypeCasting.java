@@ -1,4 +1,4 @@
-package PhaseOne;
+package PhaseOne.simplilearn.typecasting;
 
 public class TypeCasting {
 
